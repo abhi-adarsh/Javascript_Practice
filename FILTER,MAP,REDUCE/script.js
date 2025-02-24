@@ -15,6 +15,10 @@
 // const newNums = myNums.filter( (num) => num > 7)
 // console.log(newNums);
 
+// const mynums = [1,2,3,4,5,6,7,8,9]
+// const newnums = mynums.filter((num)=> num >3)
+// console.log(newnums)
+
 // const numbers = [1,2,3,4,5,6,7,8,9,10];
 
 // const values = numbers.filter( (num) => num > 5)
@@ -92,23 +96,23 @@
 
 // Q...............
 
-const shoppingCart = [
-    {
-        itemName: "JS course",
-        price: 1499
-    },
-    {
-        itemName: "PY course",
-        price: 999
-    },
-    {
-        itemName: "JAVA course",
-        price: 999
-    },
-    {
-        itemName: "HTML course",
-        price: 499
-    }
-]
-const totalPrice = shoppingCart.reduce( (acc, item) => acc + item.price, 0)
-console.log(totalPrice);
+// const shoppingCart = [
+//     {
+//         itemName: "JS course",
+//         price: 1499
+//     },
+//     {
+//         itemName: "PY course",
+//         price: 999
+//     },
+//     {
+//         itemName: "JAVA course",
+//         price: 999
+//     },
+//     {
+//         itemName: "HTML course",
+//         price: 499
+//     }
+// ]
+// const totalPrice = shoppingCart.reduce( (acc, item) => acc + item.price, 0)
+// console.log(totalPrice);
